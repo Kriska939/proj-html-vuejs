@@ -1,35 +1,29 @@
 <template>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-sm navbar-light bg-white">
       <div class="container">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li
-              class="nav-item dropdown"
-              v-for="(option, index) in navOptions"
-              :key="index"
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li
+            class="nav-item dropdown"
+            v-for="(option, index) in navOptions"
+            :key="index"
+          >
+            <a class="nav-link text-dark dropdown-toggle" href="#">
+              {{ option.text }}</a
             >
-              <a class="nav-link text-dark dropdown-toggle" href="#">
-                {{ option.text }}</a
-              >
-            </li>
-          </ul>
-          <!--ADD LOGO-->
-          <figure>
-            <img src="" alt="" />
-          </figure>
-          <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-secondary" type="button">
-              <i class="fas fa-search"></i>
-            </button>
-          </form>
-        </div>
+          </li>
+        </ul>
+        <img src="@/assets/images/dark-logo.png" alt="Max Logo" />
+        <form class="d-flex">
+          <input class="form-control" type="text" placeholder="Search" />
+          <button
+            class="btn btn-outline-secondary"
+            type="button"
+            id="button-addon2"
+          >
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
       </div>
     </nav>
   </header>
@@ -66,7 +60,25 @@ export default {
 </script>
 
 <style scoped lang="scss">
-nav {
-  height: 70px;
+img {
+  max-width: 120px;
+}
+
+input,
+button {
+  border: none;
+  background-color: rgb(231, 230, 230);
+}
+
+input {
+  border-radius: 5px 0px 0px 5px;
+}
+
+button {
+  border-radius: 0px 5px 5px 0px;
+
+  i {
+    color: lightskyblue;
+  }
 }
 </style>
