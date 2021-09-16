@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mt-5 pt-2">
     <section id="jumbotron" class="container-fluid">
       <div class="row align-items-center text-center h-400">
         <div class="col-12">

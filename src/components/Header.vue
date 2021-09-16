@@ -1,6 +1,6 @@
 <template>
   <header>
-    <nav class="navbar navbar-expand-sm navbar-light bg-white">
+    <nav class="navbar navbar-expand-sm navbar-light bg-white fixed-top">
       <div class="container">
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li
