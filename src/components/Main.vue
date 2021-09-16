@@ -1,15 +1,33 @@
 <template>
-  <section id="jumbotron" class="container-fluid">
-    <div class="row align-items-center text-center h-400">
-      <div class="col-12">
-        <h3>Commence Business</h3>
-        <h1 class="mb-4">Distant Mentoring Program</h1>
-        <button class="btn btn-outline-success btn-green-color">
-          Download Free Guidebook <i class="fas fa-arrow-right"></i>
-        </button>
+  <div>
+    <section id="jumbotron" class="container-fluid">
+      <div class="row align-items-center text-center h-400">
+        <div class="col-12">
+          <h3 class="c-white">Commence Business</h3>
+          <h1 class="mb-4">Distant Mentoring Program</h1>
+          <button class="btn btn-outline-success btn-green-color">
+            Download Free Guidebook <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+    <section class="infoBox d-flex">
+      <div class="infoText">
+        <h6>Subtitle</h6>
+        <h3>Learn about our Work</h3>
+        <p class="description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil porro
+          quisquam, fugiat provident nobis fuga architecto cumque in, adipisci
+          impedit quibusdam excepturi ut totam omnis a facere soluta accusamus!
+          Ab.
+        </p>
+        <p class="description">Do you want to know more? Click here</p>
+      </div>
+      <div class="infoImg">
+        <img src="" alt="" />
+      </div>
+    </section>
+  </div>
 </template>
 
 <script>
@@ -32,7 +50,7 @@ export default {
 }
 
 h1,
-h3 {
+.c-white {
   color: $white;
 }
 
