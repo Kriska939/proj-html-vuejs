@@ -7,8 +7,8 @@ body {
     font-size: 12px;
 }
 
-.f-30 {
-    font-size: 30px;
+.f-35 {
+    font-size: 35px;
 }
 
 .fw-300 {
@@ -25,4 +25,8 @@ body {
 
   .main-color {
     color: $mountain-meadow
+  }
+
+  .br-5 {
+      border-radius: 5px;
   }
