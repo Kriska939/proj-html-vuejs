@@ -11,9 +11,9 @@
         </div>
       </div>
     </section>
-    <section class="infoBox d-flex">
-      <div class="infoText">
-        <h6>Subtitle</h6>
+    <section class="infoBox pt-5 pb-5 mt-5 d-flex">
+      <div class="infoText me-5">
+        <h6>EVERYTHING IN MAXCOACH</h6>
         <h3>Learn about our Work</h3>
         <p class="description">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil porro
@@ -23,8 +23,8 @@
         </p>
         <p class="description">Do you want to know more? Click here</p>
       </div>
-      <div class="infoImg">
-        <img src="" alt="" />
+      <div class="infoImg ms-5">
+        <img src="../assets/images/people-infobox1.jpg" alt="Office" />
       </div>
     </section>
   </div>
@@ -63,5 +63,18 @@ h1,
 .btn:hover {
   background-color: $mountain-meadow;
   color: $white;
+}
+
+.infoBox {
+  max-width: 950px;
+  margin: 0 auto;
+
+  .infoText {
+    width: 30%;
+  }
+
+  .infoImg {
+    width: 70%;
+  }
 }
 </style>
