@@ -25,6 +25,11 @@
       </div>
       <div class="infoImg ps-5 pt-5">
         <img src="../assets/images/people-infobox1.jpg" alt="Office" />
+        <img
+          src="../assets/images/extra-img.jpg"
+          alt="Office Lady"
+          class="extra-img"
+        />
       </div>
     </section>
   </div>
@@ -78,11 +83,19 @@ h1,
   .infoImg {
     width: 70%;
     background-image: url("../assets/images/maxcoach-shape-02.png"),
-      url("../assets/images/maxcoach-shape-07-100x100.png");
+      url("../assets/images/maxcoach-shape-07-150x150.png");
     background-repeat: no-repeat;
     background-position: right bottom, center top;
     padding-bottom: 50px;
     height: 70%;
+    position: relative;
+  }
+
+  .extra-img {
+    position: absolute;
+    top: 0;
+    transform: translateX(-70%);
+    border-radius: 5px;
   }
 }
 </style>
