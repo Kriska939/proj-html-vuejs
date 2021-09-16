@@ -15,6 +15,10 @@
         </ul>
         <img src="@/assets/images/dark-logo.png" alt="Max Logo" />
         <form class="d-flex">
+          <div class="nav-icons d-flex align-items-center me-3">
+            <i class="fas fa-shopping-cart me-3"></i>
+            <i class="far fa-user-circle"></i>
+          </div>
           <input class="form-control" type="text" placeholder="Search" />
           <button
             class="btn btn-outline-secondary"
