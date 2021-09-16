@@ -2,7 +2,7 @@
   <header>
     <nav class="navbar navbar-expand-sm navbar-light bg-white fixed-top">
       <div class="container">
-        <ul class="navbar-nav mb-2 mb-lg-0">
+        <ul class="navbar-nav mb-2 mb-lg-0 f-12">
           <li
             class="nav-item dropdown"
             v-for="(option, index) in navOptions"
@@ -19,13 +19,13 @@
             <i class="fas fa-shopping-cart me-3"></i>
             <i class="far fa-user-circle"></i>
           </div>
-          <input class="form-control" type="text" placeholder="Search" />
+          <input class="form-control f-12" type="text" placeholder="Search" />
           <button
             class="btn btn-outline-secondary"
             type="button"
             id="button-addon2"
           >
-            <i class="fas fa-search"></i>
+            <i class="fas fa-search main-color"></i>
           </button>
         </form>
       </div>
@@ -80,9 +80,5 @@ input {
 
 button {
   border-radius: 0px 5px 5px 0px;
-
-  i {
-    color: lightskyblue;
-  }
 }
 </style>
