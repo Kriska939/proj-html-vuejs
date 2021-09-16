@@ -11,8 +11,8 @@
         </div>
       </div>
     </section>
-    <section class="infoBox pt-5 pb-5 mt-5 d-flex">
-      <div class="infoText me-5">
+    <section class="infoBox mt-5 d-flex">
+      <div class="infoText me-5 pt-5">
         <h6>EVERYTHING IN MAXCOACH</h6>
         <h3>Learn about our Work</h3>
         <p class="description">
@@ -23,7 +23,7 @@
         </p>
         <p class="description">Do you want to know more? Click here</p>
       </div>
-      <div class="infoImg ms-5">
+      <div class="infoImg ps-5 pt-5">
         <img src="../assets/images/people-infobox1.jpg" alt="Office" />
       </div>
     </section>
@@ -68,13 +68,21 @@ h1,
 .infoBox {
   max-width: 950px;
   margin: 0 auto;
+  max-height: 400px;
 
   .infoText {
     width: 30%;
+    height: 70%;
   }
 
   .infoImg {
     width: 70%;
+    background-image: url("../assets/images/maxcoach-shape-02.png"),
+      url("../assets/images/maxcoach-shape-07-100x100.png");
+    background-repeat: no-repeat;
+    background-position: right bottom, center top;
+    padding-bottom: 50px;
+    height: 70%;
   }
 }
 </style>
