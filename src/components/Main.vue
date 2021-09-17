@@ -131,58 +131,52 @@ h1,
   color: $white;
 }
 
-.infoBox {
-  max-width: 950px;
-  margin: 0 auto;
-  max-height: 450px;
+.infoTextType1 {
+  width: 40%;
+  height: 60%;
+}
 
-  .infoTextType1 {
-    width: 40%;
-    height: 60%;
-  }
+.infoTextType2 {
+  width: 30%;
+  height: 60%;
+}
 
-  .infoTextType2 {
-    width: 30%;
-    height: 60%;
-  }
+.infoImgType1 {
+  width: 60%;
+  background-image: url("../assets/images/maxcoach-shape-02.png"),
+    url("../assets/images/maxcoach-shape-07-150x150.png");
+  background-repeat: no-repeat;
+  background-position: right bottom, center top;
+  padding-bottom: 50px;
+  padding-right: 20px;
+  height: 70%;
+  position: relative;
+}
 
-  .infoImgType1 {
-    width: 60%;
-    background-image: url("../assets/images/maxcoach-shape-02.png"),
-      url("../assets/images/maxcoach-shape-07-150x150.png");
-    background-repeat: no-repeat;
-    background-position: right bottom, center top;
-    padding-bottom: 50px;
-    padding-right: 20px;
-    height: 70%;
-    position: relative;
-  }
+.infoImgType2 {
+  width: 70%;
+  background-image: url("../assets/images/maxcoach-shape-07-150x150.png"),
+    url("../assets/images/maxcoach-shape-05-150x150.png"),
+    url("../assets/svg/svg-0.svg");
+  background-repeat: no-repeat;
+  background-position: right bottom, left center, left top;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  padding-left: 70px;
+  height: 70%;
+  position: relative;
+}
 
-  .infoImgType2 {
-    width: 70%;
-    background-image: url("../assets/images/maxcoach-shape-07-150x150.png"),
-      url("../assets/images/maxcoach-shape-05-150x150.png"),
-      url("../assets/svg/svg-0.svg");
-    background-repeat: no-repeat;
-    background-position: right bottom, left center, left top;
-    padding-bottom: 40px;
-    padding-right: 20px;
-    padding-left: 70px;
-    height: 70%;
-    position: relative;
-  }
+.extra-img {
+  position: absolute;
+  top: 0;
+  transform: translateX(-70%);
+}
 
-  .extra-img {
-    position: absolute;
-    top: 0;
-    transform: translateX(-70%);
-  }
-
-  .youtube {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-30%, -50%);
-  }
+.youtube {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30%, -50%);
 }
 </style>

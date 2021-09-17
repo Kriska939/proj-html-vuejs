@@ -16,8 +16,8 @@
         <img src="@/assets/images/dark-logo.png" alt="Max Logo" />
         <form class="d-flex">
           <div class="nav-icons d-flex align-items-center me-3">
-            <i class="fas fa-shopping-cart me-3"></i>
-            <i class="far fa-user-circle"></i>
+            <i class="fas fa-shopping-cart me-3 clickable"></i>
+            <i class="far fa-user-circle clickable"></i>
           </div>
           <input class="form-control f-12" type="text" placeholder="Search" />
           <button
@@ -41,21 +41,27 @@ export default {
       navOptions: [
         {
           text: "Home",
+          url: "#",
         },
         {
           text: "Pages",
+          url: "#",
         },
         {
           text: "Courses",
+          url: "#",
         },
         {
           text: "Features",
+          url: "#",
         },
         {
           text: "Blog",
+          url: "#",
         },
         {
           text: "Shop",
+          url: "#",
         },
       ],
     };
