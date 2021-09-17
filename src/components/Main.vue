@@ -259,9 +259,6 @@ export default {
 
 <style scoped lang="scss">
 @import "@/assets/scss/_vars.scss";
-.h-400 {
-  height: 450px;
-}
 
 #jumbotron {
   background-image: url("../assets/images/home-3-hero-bg.jpg");
