@@ -72,7 +72,7 @@
         <img
           src="../assets/images/icon-youtube-play.png"
           alt="Youtube Icon"
-          class="youtube"
+          class="youtube clickable"
         />
       </div>
       <div class="infoTextType2 ms-5 pt-5">
@@ -94,12 +94,27 @@
         ></a>
       </div>
     </section>
+
+    <section class="cardsShowcase">
+      <div class="text-center">
+        <h6 class="f-12 fw-bold">JOIN MAXCOACH AT BEST</h6>
+        <div class="mb-5">
+          <h2 class="d-inline fw-bold f-35">Latest Online</h2>
+          <span class="f-35 main-color"> Courses </span>
+        </div>
+      </div>
+      <Card />
+    </section>
   </div>
 </template>
 
 <script>
+import Card from "../components/Card.vue";
 export default {
   name: "Main",
+  components: {
+    Card,
+  },
 };
 </script>
 
