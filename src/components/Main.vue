@@ -104,7 +104,7 @@
           sets of insights into your career. <br />MaxCoach accompany learners
           in every stage of learning.
         </p>
-        <a href="#" class="f-12 main-color fw-bold"
+        <a href="#" class="f-12 cinder fw-bold"
           >Download free guidebook <i class="fas fa-arrow-right"></i
         ></a>
       </div>
@@ -148,7 +148,7 @@
           Everything is transparent and straightforward for your sense of
           justification.
         </p>
-        <a href="#" class="f-12 main-color fw-bold"
+        <a href="#" class="f-12 cinder fw-bold"
           >View all <i class="fas fa-arrow-right"></i
         ></a>
       </div>
