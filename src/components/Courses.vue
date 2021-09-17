@@ -58,5 +58,9 @@ export default {
 };
 </script>
 
-<style>
+<style scoped lang="scss">
+.card:hover {
+  padding: 10px;
+  box-shadow: 5px 5px rgb(202, 202, 202);
+}
 </style>
