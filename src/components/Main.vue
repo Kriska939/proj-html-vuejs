@@ -146,7 +146,7 @@
       </div>
       <div class="infoImg pt-5">
         <img
-          src="../assets/images/people-infobox1.jpg"
+          src="../assets/images/infobox-missing.jpg"
           alt="Office"
           class="img-fluid br-5"
         />
