@@ -5,7 +5,16 @@
         <div class="col-12">
           <h3 class="c-white">Commence Business</h3>
           <h1 class="mb-4 fw-300">Distant Mentoring Program</h1>
-          <button class="btn btn-outline-success fw-bold f-12 p-3 main-color">
+          <button
+            class="
+              btn btn-outline-success btn-jumbotron
+              fw-bold
+              f-12
+              px-4
+              py-2
+              main-color
+            "
+          >
             Download free guidebook <i class="fas fa-arrow-right"></i>
           </button>
         </div>
@@ -95,15 +104,88 @@
       </div>
     </section>
 
-    <section class="cardsShowcase">
+    <section class="cardsShowcase bg-grey pb-5">
       <div class="text-center">
-        <h6 class="f-12 fw-bold">JOIN MAXCOACH AT BEST</h6>
+        <h6 class="f-12 fw-bold pt-3">JOIN MAXCOACH AT BEST</h6>
         <div class="mb-5">
           <h2 class="d-inline fw-bold f-35">Latest Online</h2>
           <span class="f-35 main-color"> Courses </span>
         </div>
       </div>
-      <Card />
+      <div class="infoBox">
+        <Card />
+        <div class="text-center w-400 m-auto">
+          <p class="d-inline f-12 fw-600">
+            Control your personal preference settings to get notified about
+            appropriate courses.
+          </p>
+          <a href="#" class="f-12 main-color fw-bold"
+            >View all courses <i class="fas fa-arrow-right"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <section class="infoBox mt-5 d-flex">
+      <div class="infoTextType1 me-5 pt-5">
+        <div class="mb-2">
+          <h6 class="f-12 d-inline">TESTIMONIALS</h6>
+        </div>
+        <div class="mb-2">
+          <h2 class="d-inline fw-bold f-35">Why Do People</h2>
+          <span class="f-35 main-color"> *Hearts* </span>
+          <h2 class="d-inline fw-bold f-35">Us?</h2>
+        </div>
+        <p class="description f-12">
+          Seeking for verbals of our service quality? Find them here. <br />
+          Everything is transparent and straightforward for your sense of
+          justification.
+        </p>
+        <a href="#" class="f-12 main-color fw-bold"
+          >View all <i class="fas fa-arrow-right"></i
+        ></a>
+      </div>
+      <div class="infoImg pt-5">
+        <img
+          src="../assets/images/people-infobox1.jpg"
+          alt="Office"
+          class="img-fluid br-5"
+        />
+      </div>
+    </section>
+    <section class="infoBox mt-5 mb-5 d-flex">
+      <div class="infoImgType3 pt-5">
+        <img
+          src="../assets/images/team-image-big.png"
+          alt="Team Image"
+          class="img-fluid br-5"
+        />
+      </div>
+      <div class="infoTextType2 ms-5 pt-5">
+        <div class="mb-2 mt-5">
+          <h6 class="f-12 d-inline">EVERYTHING IN</h6>
+          <span class="f-12 cinder fw-bold"> MAXCOACH</span>
+        </div>
+        <div class="mb-2">
+          <h2 class="d-inline fw-bold f-35">We're Here to</h2>
+          <span class="f-35 main-color"> Transform </span>
+          <h2 class="d-inline fw-bold f-35">You!</h2>
+        </div>
+        <p class="description f-12">
+          As learners, people can enjoy great companionship from MaxCoach
+          mentors and educators. We can help you develop and grow at your best.
+        </p>
+        <button
+          class="
+            btn btn-outline-success btn-freebie
+            fw-bold
+            f-12
+            px-4
+            main-color
+          "
+        >
+          Get free guide
+        </button>
+      </div>
     </section>
   </div>
 </template>
@@ -136,14 +218,25 @@ h1,
   color: $white;
 }
 
-.btn {
+.btn-jumbotron {
   background-color: $white;
   border: 1px solid white;
 }
 
-.btn:hover {
+.btn-freebie {
   background-color: $mountain-meadow;
   color: $white;
+  border: none;
+}
+
+.btn-jumbotron:hover {
+  background-color: $mountain-meadow;
+  color: $white;
+}
+
+.btn-freebie:hover {
+  background-color: white;
+  color: $mountain-meadow;
 }
 
 .infoTextType1 {
@@ -154,6 +247,13 @@ h1,
 .infoTextType2 {
   width: 30%;
   height: 60%;
+}
+
+.infoImg {
+  width: 60%;
+  padding-bottom: 50px;
+  padding-right: 20px;
+  height: 70%;
 }
 
 .infoImgType1 {
@@ -182,6 +282,20 @@ h1,
   position: relative;
 }
 
+.infoImgType3 {
+  width: 55%;
+  background-image: url("../assets/images/maxcoach-shape-07-150x150.png"),
+    url("../assets/images/maxcoach-shape-05-150x150.png"),
+    url("../assets/svg/svg-0.svg");
+  background-repeat: no-repeat;
+  background-position: right bottom, left center, left top;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  padding-left: 70px;
+  height: 60%;
+  position: relative;
+}
+
 .extra-img {
   position: absolute;
   top: 0;
@@ -193,5 +307,10 @@ h1,
   top: 50%;
   left: 50%;
   transform: translate(-30%, -50%);
+}
+
+.bg-grey {
+  background-color: rgb(245, 245, 245);
+  border-radius: 0px 0px 15% 15%;
 }
 </style>
