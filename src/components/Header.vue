@@ -1,8 +1,10 @@
 <template>
   <header>
+    <!-- ADDED STICKYNESS WITH FIXED TOP RULE-->
     <nav class="navbar navbar-expand-sm navbar-light bg-white fixed-top">
       <div class="container">
         <ul class="navbar-nav mb-2 mb-lg-0 f-12">
+          <!-- INSERIMENTO VOCI MENU DINAMICO -->
           <li
             class="nav-item dropdown"
             v-for="(option, index) in navOptions"
@@ -13,7 +15,10 @@
             >
           </li>
         </ul>
+        <!-- LOGO CENTRALE-->
         <img src="@/assets/images/dark-logo.png" alt="Max Logo" />
+
+        <!-- ICONE + SEARCHBAR -->
         <form class="d-flex">
           <div class="nav-icons d-flex align-items-center me-3">
             <i class="fas fa-shopping-cart me-3 clickable"></i>

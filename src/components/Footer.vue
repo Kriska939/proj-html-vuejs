@@ -2,12 +2,14 @@
   <footer class="container-fluid">
     <div class="infoBox pt-5 d-flex justify-content-around">
       <div id="address">
+        <!-- DINAMIC ADDRESS INFO -->
         <ul class="p-0 f-12 fw-bold">
           <h6 class="white fw-bold">Address</h6>
           <li class="pb-2">{{ companyAddress.road }}</li>
           <li class="pb-2">{{ companyAddress.contacts }}</li>
           <li class="pb-2">{{ companyAddress.mail }}</li>
         </ul>
+        <!-- SOCIAL MEDIA ICONS -->
         <div class="social">
           <i class="fab fa-facebook-square me-3 clickable"></i>
           <i class="fab fa-twitter-square me-3 clickable"></i>
@@ -15,6 +17,7 @@
           <i class="fab fa-linkedin clickable"></i>
         </div>
       </div>
+      <!-- BROWSE 1st COLUMN -->
       <div id="browsePages" class="d-flex">
         <ul class="p-0 me-4 f-12 fw-bold w-250">
           <h6 class="white fw-bold">Explore</h6>
@@ -28,6 +31,7 @@
                 <a href="#">{{ page.title }}</a>
               </li>
             </div>
+            <!-- EXPLORE 2st COLUMN -->
             <div class="col-6">
               <li
                 v-for="(page, index) in sitePages2"
@@ -39,6 +43,7 @@
             </div>
           </div>
         </ul>
+        <!-- SITE INFO & LEGAL -->
         <ul class="p-0 me-4 f-12 fw-bold">
           <h6 class="white fw-bold">Information</h6>
           <li v-for="(page, index) in infoPages" :key="index" class="pe-4 pb-2">

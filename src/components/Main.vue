@@ -1,5 +1,6 @@
 <template>
   <div class="mt-5 pt-2">
+    <!-- JUMBOTRON-->
     <section id="jumbotron" class="container-fluid">
       <div class="row align-items-center text-center h-400">
         <div class="col-12">
@@ -20,6 +21,8 @@
         </div>
       </div>
     </section>
+
+    <!-- FIRST SECTION HALF TEXT HALF IMG -->
     <section class="infoBox mt-5 d-flex">
       <div class="infoTextType1 me-5 pt-5">
         <div class="mb-2">
@@ -54,6 +57,8 @@
         />
       </div>
     </section>
+
+    <!-- SECTION ABOUT SITE STATS -->
     <section
       id="numbers"
       class="d-flex justify-content-center mb-5 text-center"
@@ -71,6 +76,7 @@
         <h6 class="f-12 fw-bold">SATISFACTION RATE</h6>
       </div>
     </section>
+    <!-- SECOND SECTION HALF TEXT HALF IMG -->
     <section class="infoBox mt-5 mb-5 d-flex">
       <div class="infoImgType2 pt-5">
         <img
@@ -103,7 +109,7 @@
         ></a>
       </div>
     </section>
-
+    <!-- FIRST SECTION WITH CARDS (includes "courses" component) -->
     <section class="cardsShowcase bg-grey br-special pb-5">
       <div class="text-center">
         <h6 class="f-12 fw-bold pt-3">JOIN MAXCOACH AT BEST</h6>
@@ -125,6 +131,8 @@
         </div>
       </div>
     </section>
+
+    <!-- THIRD SECTION HALF TEXT HALF IMG -->
     <section class="infoBox mt-5 d-flex">
       <div class="infoTextType1 me-5 pt-5">
         <div class="mb-2">
@@ -152,6 +160,8 @@
         />
       </div>
     </section>
+
+    <!-- FOURTH SECTION HALF TEXT HALF IMG -->
     <section class="infoBox mt-5 mb-5 d-flex">
       <div class="infoImgType3 pt-5">
         <img
@@ -187,6 +197,8 @@
         </button>
       </div>
     </section>
+
+    <!-- SECOND SECTION WITH CARDS (includes "posts" component) -->
     <section class="cardsShowcase bg-grey pb-5 pt-5">
       <div class="text-center">
         <h6 class="f-12 fw-bold pt-3">JOIN MAXCOACH AT BEST</h6>
@@ -208,6 +220,8 @@
         </div>
       </div>
     </section>
+
+    <!-- NEWSLETTER SECTION -->
     <section id="newsletter" class="mb-5">
       <div class="mb-2 mt-5 text-center">
         <h2 class="d-inline fw-bold f-35 cinder">Subscribe</h2>
