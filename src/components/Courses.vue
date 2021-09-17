@@ -3,21 +3,21 @@
     <div
       class="card me-4"
       style="width: 20rem"
-      v-for="(card, index) in cardData"
+      v-for="(course, index) in coursesData"
       :key="index"
     >
-      <img class="card-img-top" :src="card.picture" alt="Card image cap" />
+      <img class="card-img-top" :src="course.picture" alt="Card image cap" />
       <div class="card-body">
-        <h3 class="card-title main-color fw-bold">{{ card.price }}</h3>
-        <h5 class="card-text fw-600 cinder pb-2 f-18">{{ card.name }}</h5>
+        <h3 class="card-title main-color fw-bold">{{ course.price }}</h3>
+        <h5 class="card-text fw-600 cinder pb-2 f-18">{{ course.name }}</h5>
         <div class="courseInfo d-flex">
           <div class="lessons me-4">
             <i class="far fa-file-alt pe-2"></i>
-            <span class="f-12"> {{ card.lessons + " Lessons" }}</span>
+            <span class="f-12"> {{ course.lessons + " Lessons" }}</span>
           </div>
           <div class="students">
             <i class="far fa-user pe-2"></i>
-            <span class="f-12"> {{ card.lessons + " Students" }}</span>
+            <span class="f-12"> {{ course.lessons + " Students" }}</span>
           </div>
         </div>
       </div>
@@ -27,10 +27,10 @@
 
 <script>
 export default {
-  name: "Card",
+  name: "Courses",
   data() {
     return {
-      cardData: [
+      coursesData: [
         {
           picture: require("../assets/images/course1.jpg"),
           price: "$40.00",

@@ -104,7 +104,7 @@
       </div>
     </section>
 
-    <section class="cardsShowcase bg-grey pb-5">
+    <section class="cardsShowcase bg-grey br-special pb-5">
       <div class="text-center">
         <h6 class="f-12 fw-bold pt-3">JOIN MAXCOACH AT BEST</h6>
         <div class="mb-5">
@@ -113,7 +113,7 @@
         </div>
       </div>
       <div class="infoBox">
-        <Card />
+        <Courses />
         <div class="text-center w-400 m-auto">
           <p class="d-inline f-12 fw-600">
             Control your personal preference settings to get notified about
@@ -187,15 +187,72 @@
         </button>
       </div>
     </section>
+    <section class="cardsShowcase bg-grey pb-5 pt-5">
+      <div class="text-center">
+        <h6 class="f-12 fw-bold pt-3">JOIN MAXCOACH AT BEST</h6>
+        <div class="mb-5">
+          <h2 class="d-inline fw-bold f-35">Latest From</h2>
+          <span class="f-35 main-color"> Our Blogs </span>
+        </div>
+      </div>
+      <div class="infoBox">
+        <Posts />
+        <div class="text-center w-400 m-auto">
+          <p class="d-inline f-12 fw-600">
+            Control your personal preference settings to get notified about
+            appropriate courses.
+          </p>
+          <a href="#" class="f-12 main-color fw-bold"
+            >View all courses <i class="fas fa-arrow-right"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <section id="newsletter" class="mb-5">
+      <div class="mb-2 mt-5 text-center">
+        <h2 class="d-inline fw-bold f-35 cinder">Subscribe</h2>
+        <span class="f-35 main-color"> Newsletters </span>
+      </div>
+      <div class="text-center w-400 m-auto">
+        <p class="d-inline f-12 fw-600">
+          Enter your email address to register to our newsletter subscription
+          delivered on a regular bases!
+        </p>
+        <div class="input-group mb-3 mt-3 f-12">
+          <input
+            type="text"
+            class="form-control f-12"
+            placeholder="Enter your email"
+          />
+          <div class="input-group-append">
+            <button
+              class="
+                btn btn-outline-success btn-freebie
+                newsButton
+                fw-bold
+                f-12
+                py-2
+                px-3
+                main-color
+              "
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
 <script>
-import Card from "../components/Card.vue";
+import Courses from "./Courses.vue";
+import Posts from "./Posts.vue";
 export default {
   name: "Main",
   components: {
-    Card,
+    Courses,
+    Posts,
   },
 };
 </script>
@@ -311,6 +368,30 @@ h1,
 
 .bg-grey {
   background-color: rgb(245, 245, 245);
+}
+
+.br-special {
   border-radius: 0px 0px 15% 15%;
+}
+
+input,
+button {
+  border: none;
+  background-color: rgb(231, 230, 230);
+}
+
+.newsButton {
+  border-radius: 0px 5px 5px 0px;
+}
+
+#newsletter {
+  background-image: url("../assets/images/maxcoach-shape-02.png"),
+    url("../assets/images/maxcoach-shape-09.png"),
+    url("../assets/images/maxcoach-shape-01.png");
+  background-repeat: no-repeat;
+  background-position: right bottom, right top, left bottom;
+  height: 230px;
+  width: 950px;
+  margin: 0 auto;
 }
 </style>
