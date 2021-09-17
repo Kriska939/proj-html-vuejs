@@ -8,15 +8,16 @@
     >
       <img class="card-img-top" :src="post.picture" alt="Card image cap" />
       <div class="card-body">
+        <h6 class="f-12 fw-600">ARTIST</h6>
         <h5 class="card-text fw-600 cinder pb-2 f-18">{{ post.name }}</h5>
         <div class="courseInfo d-flex">
           <div class="lessons me-4">
             <i class="far fa-calendar pe-2"></i>
-            <span class="f-12"> {{ post.date }}</span>
+            <span class="f-12 fw-600"> {{ post.date }}</span>
           </div>
           <div class="students">
             <i class="far fa-eye pe-2"></i>
-            <span class="f-12"> {{ post.views + " views" }}</span>
+            <span class="f-12 fw-600"> {{ post.views + " views" }}</span>
           </div>
         </div>
       </div>

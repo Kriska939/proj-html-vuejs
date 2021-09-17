@@ -13,11 +13,11 @@
         <div class="courseInfo d-flex">
           <div class="lessons me-4">
             <i class="far fa-file-alt pe-2"></i>
-            <span class="f-12"> {{ course.lessons + " Lessons" }}</span>
+            <span class="f-12 fw-600"> {{ course.lessons + " Lessons" }}</span>
           </div>
           <div class="students">
             <i class="far fa-user pe-2"></i>
-            <span class="f-12"> {{ course.lessons + " Students" }}</span>
+            <span class="f-12 fw-600"> {{ course.lessons + " Students" }}</span>
           </div>
         </div>
       </div>
